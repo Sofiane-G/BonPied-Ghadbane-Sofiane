@@ -6,39 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>9
 
     <script src="script.js" defer></script>
     <script src="asset/@phosphor-icons/web/src/index.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
-    />
-</head>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+    </head>
 
 <body>
     <!-- header -->
-    <header class="flex space-between align-center">
+    <header class="flex space-between align-center header">
 
         <img src="asset/logo-bon-pied1.png" alt="Logo" width="75">
 
         <nav class="">
+            <input type="text" name="recherche" id="Recherche" placeholder="Rechercher" class="mb-16 card-recherche">
             <a href="#Nos Produits" class="pr-16 pl-16 typo">Nos Produits</a>
-            <a href="#Nos Services" class="pr-16 pl-16 typo">Nos Services</a>
+            <a href="#service-container" class="pr-16 pl-16 typo">Nos Services</a>
             <a href="#Témoignages" class="pr-16 pl-16 typo">Témoignages</a>
+             <a href="#AvantagesClients" class="pr-16 pl-16 typo">Avantages Clients</a>
         </nav>
 
     </header>
 
     <!-- Section 1 ( Présentation ) -->
-    <section class="fond-img flex space-between text-center align-center">
-        <div>
+    <section id="info-container" class="fond-img flex justify-center text-center align-center">
+        <!--  <div>
             <h1 class="colorwhite">TITRE 1</h1>
             <p class="colorwhite mt-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam asperiores
                 ullam odio
@@ -52,18 +51,19 @@
                 voluptatem, non dolorum vero?</p>
             <button class="btn">bouton</button>
         </div>
+        -->
     </section>
 
     <!-- Section 2 ( Produits) -->
     <section class="container-1200">
 
 
-        <h2 class="text-center titre-h2 mt-64">Nos Produits</h2>
+        <h2 id="Nos Produits" class="text-center titre-h2 mt-64">Nos Produits</h2>
 
 
-        <div id="produit-container" class="flex space-between gap-64" >
+        <div id="produit-container" class="flex space-between gap-64">
 
-           <!--   <div class="w-30 card mt-64">
+            <!--   <div class="w-30 card mt-64">
                 <img src="asset/fond-sneackers.jpg" alt="" width="100%" class="img-border">
                 <div>
                     <h3 class="mt-16 mb-16">Nom</h3>
@@ -79,11 +79,11 @@
     </section>
 
     <!-- Section 3 ( Services ) -->
-    <section class="container-1200">
+    <section id="service-container" class="container-1200">
 
         <h2 class="text-center titre-h2 mt-64 mb-64">Nos Services</h2>
 
-        <div class="accordion align-center card-service mt-32">
+        <!--  <div class="accordion align-center card-service mt-32">
             <div class="accordion-title">
                 <h4>Titre de l'accordeon</h4>
                 <i class="ph ph-caret-right"></i>
@@ -96,48 +96,20 @@
                         asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
                 </div>
             </div>
+            -->
         </div>
-
-        <div class="accordion align-center card-service mt-32">
-            <div class="accordion-title">
-                <h4>Titre de l'accordeon</h4>
-                <i class="ph ph-caret-right"></i>
-            </div>
-            <div class="accordion-content">
-                <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea itaque quod
-                        sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
-                        asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion align-center card-service mt-32">
-            <div class="accordion-title">
-                <h4>Titre de l'accordeon</h4>
-                <i class="ph ph-caret-right"></i>
-            </div>
-            <div class="accordion-content">
-                <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea itaque quod
-                        sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
-                        asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
-                </div>
-            </div>
-        </div>
-
 
     </section>
 
     <!-- Section 4 ( Témoignages ) -->
-    <section class="container-1200">
+    <section id="Témoignages" class="container-1200">
 
         <h2 class="text-center titre-h2 pb-64 mt-64">Temoignages</h2>
 
         <!-- Grande Div -->
-        <div class="flex space-between">
+        <div id="temoignage-container" class="flex space-between">
             <!-- Card Avis -->
-            <div class="avis w-30 card">
+            <!--  <div class="avis w-30 card">
                 <div class="flex gap-16 align-center">
                     <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
                     <div>
@@ -150,63 +122,66 @@
                 <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
                     rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
             </div>
+            -->
+        </div>
 
-             <div class="avis w-30 card">
-                <div class="flex gap-16 align-center">
-                    <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
-                    <div>
-                        <h4>Nom prenom</h4>
-                        <div class="stars">
-                            ★★★★☆
-                        </div>
-                    </div>
-                </div>
-                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
-                    rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
+    </section>
+
+    <!-- Section 5 ( Avantages Clients ) -->
+
+    <section id="AvantagesClients" class="container-1200 mt-64">
+
+        <h2 class="text-center titre-h2 mt-64 mb-64">Avantages Clients</h2>
+
+        <div id="information-container" class="flex space-between">
+
+            <!--  <div class="w-30">
+                <img src="asset/img-eco.jpg" alt="" width="100%">
+                <h4>Eco-Responsable</h4>
+                <p></p>
             </div>
-             <div class="avis w-30 card">
-                <div class="flex gap-16 align-center">
-                    <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
-                    <div>
-                        <h4>Nom prenom</h4>
-                        <div class="stars">
-                            ★★★★☆
-                        </div>
-                    </div>
-                </div>
-                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
-                    rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
+            <div class="w-30">
+                <img src="asset/img-eco-2.jpg" alt="" width="100%">
+                <h4>Style Unique</h4>
+                <p></p>
             </div>
-            
+            <div class="w-30">
+                <img src="asset/engagement-logo.jpg" alt="" width="100%">
+                <h4>Engagement</h4>
+                <p></p>
+            </div>
+-->
         </div>
 
     </section>
 
     <!-- Footer -->
-    <footer class="flex space-between container-1200 mt-64 mb-64">
+    <footer class="flex space-between container-1200 mt-64 mb-64 background-green">
 
-<!-- Grande div -->
+        <!-- Grande div -->
 
-        <div class="w-48">
-            <h3 class="titre-h3 mt-128">Prets à travailler ensemble ? </h3>
-            <p class="mt-32 mb-32 typo">Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en
-                discuter et de voir comment avancer ensemble. Laissez votre contact téléphonique et je vous rappellerai.</p>
+        <div class="w-48 align-center">
+            <h3 class="titre-h3 mt-64 text-center color-white">Prets à travailler ensemble ? </h3>
+            <p class="mt-32 mb-64 typo color-white">Une idée, un projet, une envie de collaboration ? Contactez-nous,
+                nous serons ravis d’en
+                discuter et de voir comment travailler ensemble. Laissez votre contact téléphonique et nous vous
+                rappellerons.</p>
             <nav class="flex space-between">
-                <a href=""><i class="ph ph-facebook-logo logo"></i></a>
-                <a href=""><i class="ph ph-twitter-logo logo"></i></a>
-                <a href=""><i class="ph ph-instagram-logo logo"></i></a>
-                <a href=""><i class="ph ph-youtube-logo logo"></i></a>
+                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"><i class="ph ph-facebook-logo logo color-white"></i></a>
+                <a href="https://x.com/?lang=fr"><i class="ph ph-twitter-logo logo color-white"></i></a>
+                <a href="https://www.instagram.com/"><i class="ph ph-instagram-logo logo color-white"></i></a>
+                <a href="https://www.youtube.com/"><i class="ph ph-youtube-logo logo color-white"></i></a>
             </nav>
         </div>
 
         <!-- Grande div -->
 
-        <div class="w-48 mt-64 flex colonne">
-            <input type="text" name="Nom" id="Nom" placeholder="Nom" class="mb-16 card-contact">
-            <input type="tel" name="tel" id="tel" placeholder="Téléphone" class="mb-16 card-contact">
-            <input type="email" name="email" id="email" placeholder="Email" class="mb-16 card-contact">
-            <textarea name="message" id="message" placeholder="Message" class="mb-16 card-contact"></textarea>
-            <input type="submit" value="Envoyer" class="btn">
+        <div class="w-48 mt-64 mb-32 flex colonne">
+            <input type="text" name="Nom" id="Nom" placeholder="Nom" class="mb-16 card-recherche">
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone" class="mb-16 card-recherche">
+            <input type="email" name="email" id="email" placeholder="Email" class="mb-16 card-recherche">
+            <textarea name="message" id="message" placeholder="Message" class="mb-16 card-recherche"></textarea>
+             <a href="" class="btn mt-32 text-center">Envoyer</a>
         </div>
 
     </footer>
