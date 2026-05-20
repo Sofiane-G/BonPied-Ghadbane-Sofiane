@@ -11,27 +11,32 @@
     {
       "nom": "Sneakers Classic",
       "description": "Adoptez le style classique avec nos sneakers éco-sourcés. Conçues avec des matériaux recyclés, elles allient confort, durabilité et élégance.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/sneakers/sneakers-classic.webp"
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire1.png"
     },
     {
       "nom": "Sneakers Urbaines",
       "description": "Affirmez votre style urbain avec nos sneakers tendance. Des designs modernes fabriqués de manière éthique pour une empreinte écologique réduite.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/sneakers/sneakers-urbaines.webp"
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire2.png"
     },
     {
       "nom": "Sneakers Légères",
       "description": "Optez pour le confort ultime avec nos sneakers légères. Fabriquées avec des matériaux respirants, elles sont idéales pour une utilisation quotidienne.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/sneakers/sneakers-legeres.webp"
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire3-removebg-preview.png"
     },
     {
       "nom": "Sneakers Hautes Performance",
       "description": "Atteignez de nouveaux sommets avec nos sneakers hautes performances. Conçues pour offrir un soutien optimal tout en respectant l'environnement.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/sneakers/sneakers-hautes-performance.webp"
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire4-removebg-preview.png"
     },
     {
       "nom": "Sneakers Vintage Éco-sourcées",
       "description": "Retrouvez le charme du vintage avec nos sneakers éco-sourcées. Des modèles rétro repensés avec des matériaux respectueux de l'environnement.",
-      "image-url": "https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.gitlab.io/images/sneakers/sneakers-vintage-eco-sourcees.webp"
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire5-removebg-preview.png"
+    },
+    {
+      "nom": "Sneakers Minimal Éco",
+      "description": "Misez sur l’essentiel avec nos sneakers minimalistes éco-responsables. Un design épuré, des lignes sobres et des matériaux recyclés pour un style intemporel et une empreinte environnementale réduite.",
+      "image": "https://nico-on-web.github.io/sneakers-assignement-js/images/paire6.png"
     }
   ],
   "services": [

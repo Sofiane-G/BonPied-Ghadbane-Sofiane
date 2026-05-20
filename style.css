@@ -78,7 +78,9 @@ font-family: "Cormorant Garamond", serif;
 }
 
 .background-white{
-    background-color: white;
+    background-color: rgba(199, 199, 199, 0.539);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .colorwhite{
@@ -127,6 +129,7 @@ font-family: "Cormorant Garamond", serif;
 background-image: url(asset/Fond-Sneackers.jpg);
 background-size: cover;
 background-repeat:no-repeat;
+background-position: center;
 height:100vh;
 }
 
@@ -154,6 +157,10 @@ height:100vh;
 
 .justify-center{
     justify-content: center;
+}
+
+.gap {
+  gap: var(--gap);
 }
 
 .gap-8{
@@ -318,17 +325,17 @@ height:100vh;
     border: solid #000000;
     padding: 15px 10px;
     width: 28%;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: "inter", sans-serif;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
  }
 
- .card-projet{
-    background-color: white;
+ .card-service{
+    background-color: rgb(255, 255, 255);
     border: solid #000000;
     padding: 15px 10px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     font-family: "inter", sans-serif;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
  }
@@ -357,6 +364,70 @@ height:100vh;
  .photo-border{
     border-radius: 200px;
  }
+
+ 
+
+ .card-temoignage {
+  border-radius: 8px;
+  background-color: var(--troisieme-plan);
+
+  h3,
+  h4,
+  .btn {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  img {
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 150px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .card-content {
+    padding: 8px;
+  }
+}
+
+.avis-temoignages {
+
+  background-color: var(--deuxieme-plan);
+  padding: 16px;
+
+  &>div {
+    --gap: 16px;
+  }
+
+  border-radius: 8px;
+
+  h4 {
+    margin: 0;
+  }
+
+  .avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: var(--premier-plan);
+    padding: 8px;
+
+  }
+
+  .stars {
+    color: var(--primary);
+  }
+
+  p {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+}
 
  /* ------------------------------
             BOUTON

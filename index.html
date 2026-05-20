@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    
+
     <script src="script.js" defer></script>
     <script src="asset/@phosphor-icons/web/src/index.js" defer></script>
-    
-    
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
 </head>
 
 <body>
@@ -32,11 +40,13 @@
     <section class="fond-img flex space-between text-center align-center">
         <div>
             <h1 class="colorwhite">TITRE 1</h1>
-            <p class="colorwhite mt-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam asperiores ullam odio
+            <p class="colorwhite mt-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam asperiores
+                ullam odio
                 maxime soluta, sed
                 itaque ipsum aliquid quia ratione sapiente ea corporis, quibusdam ab suscipit esse eligendi illum
                 repellendus.</p>
-            <p class="colorwhite mt-32 mb-32">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis quisquam sint
+            <p class="colorwhite mt-32 mb-32">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis
+                quisquam sint
                 ut sequi
                 repudiandae fugit adipisci voluptate soluta ducimus ipsam eius suscipit consequuntur animi, illum
                 voluptatem, non dolorum vero?</p>
@@ -48,12 +58,12 @@
     <section class="container-1200">
 
 
-        <h2 class="text-center mt-64">Nos Produits</h2>
+        <h2 class="text-center titre-h2 mt-64">Nos Produits</h2>
 
 
-        <div class="flex space-between gap-64">
+        <div id="produit-container" class="flex space-between gap-64" >
 
-            <div class="w-30 card mt-64">
+           <!--   <div class="w-30 card mt-64">
                 <img src="asset/fond-sneackers.jpg" alt="" width="100%" class="img-border">
                 <div>
                     <h3 class="mt-16 mb-16">Nom</h3>
@@ -62,96 +72,142 @@
                         Ipsum, inventore!</p>
                 </div>
             </div>
-
-            <div class="w-30 card mt-64">
-                <img src="asset/fond-sneackers.jpg" alt="" width="100%">
-                <div>
-                    <h3>Nom</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam aliquid nemo, itaque voluptate
-                        aliquam odit velit modi, eius, officiis tempore esse quis repellat in corporis porro ea autem.
-                        Ipsum, inventore!</p>
-                </div>
-            </div>
-
-            <div class="w-30 card mt-64">
-                <img src="asset/fond-sneackers.jpg" alt="" width="100%">
-                <div>
-                    <h3>Nom</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam aliquid nemo, itaque voluptate
-                        aliquam odit velit modi, eius, officiis tempore esse quis repellat in corporis porro ea autem.
-                        Ipsum, inventore!</p>
-                </div>
-            </div>
-
-            <div class="w-30 card">
-                <img src="asset/fond-sneackers.jpg" alt="" width="100%">
-                <div>
-                    <h3>Nom</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam aliquid nemo, itaque voluptate
-                        aliquam odit velit modi, eius, officiis tempore esse quis repellat in corporis porro ea autem.
-                        Ipsum, inventore!</p>
-                </div>
-            </div>
-
-            <div class="w-30 card">
-                <img src="asset/fond-sneackers.jpg" alt="" width="100%">
-                <div>
-                    <h3>Nom</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam aliquid nemo, itaque voluptate
-                        aliquam odit velit modi, eius, officiis tempore esse quis repellat in corporis porro ea autem.
-                        Ipsum, inventore!</p>
-                </div>
-            </div>
-
-            <div class="w-30 card">
-                <img src="asset/fond-sneackers.jpg" alt="" width="100%">
-                <div>
-                    <h3>Nom</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam aliquid nemo, itaque voluptate
-                        aliquam odit velit modi, eius, officiis tempore esse quis repellat in corporis porro ea autem.
-                        Ipsum, inventore!</p>
-                </div>
-            </div>
-
-
-
+-->
         </div>
 
 
     </section>
 
     <!-- Section 3 ( Services ) -->
-    <section>
+    <section class="container-1200">
 
-<h2 class="text-center mt-64">Nos Services</h2>
+        <h2 class="text-center titre-h2 mt-64 mb-64">Nos Services</h2>
 
-<div class="accordion">
-    <div class="accordion-title">
-        <h4>Titre de l'accordeon</h4>
-        <i class="ph ph-caret-right"></i>
-    </div>
-    <div class="accordion-content">
-        <div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea itaque quod
-                sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
-                asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
+        <div class="accordion align-center card-service mt-32">
+            <div class="accordion-title">
+                <h4>Titre de l'accordeon</h4>
+                <i class="ph ph-caret-right"></i>
+            </div>
+            <div class="accordion-content">
+                <div>
+                    <p class="background-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea
+                        itaque quod
+                        sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
+                        asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+        <div class="accordion align-center card-service mt-32">
+            <div class="accordion-title">
+                <h4>Titre de l'accordeon</h4>
+                <i class="ph ph-caret-right"></i>
+            </div>
+            <div class="accordion-content">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea itaque quod
+                        sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
+                        asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion align-center card-service mt-32">
+            <div class="accordion-title">
+                <h4>Titre de l'accordeon</h4>
+                <i class="ph ph-caret-right"></i>
+            </div>
+            <div class="accordion-content">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea itaque quod
+                        sunt inventore architecto, odit saepe cumque laudantium aspernatur sit voluptatibus,
+                        asperiores maiores consequuntur dolore. Aliquid illo magnam iste.</p>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
-    <!-- Section 4 ( Avis ) -->
-    <section>
+    <!-- Section 4 ( Témoignages ) -->
+    <section class="container-1200">
 
+        <h2 class="text-center titre-h2 pb-64 mt-64">Temoignages</h2>
 
+        <!-- Grande Div -->
+        <div class="flex space-between">
+            <!-- Card Avis -->
+            <div class="avis w-30 card">
+                <div class="flex gap-16 align-center">
+                    <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
+                    <div>
+                        <h4>Nom prenom</h4>
+                        <div class="stars">
+                            ★★★★☆
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+                    rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
+            </div>
+
+             <div class="avis w-30 card">
+                <div class="flex gap-16 align-center">
+                    <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
+                    <div>
+                        <h4>Nom prenom</h4>
+                        <div class="stars">
+                            ★★★★☆
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+                    rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
+            </div>
+             <div class="avis w-30 card">
+                <div class="flex gap-16 align-center">
+                    <div><img src="asset/avatar.jpg" alt="photo" width="60px" height="60px" class="photo-border"></div>
+                    <div>
+                        <h4>Nom prenom</h4>
+                        <div class="stars">
+                            ★★★★☆
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid, minima voluptas expedita
+                    rem asperiores blanditiis cupiditate itaque recusandae nisi, incidunt adipisci. Ratione, magni.</p>
+            </div>
+            
+        </div>
 
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="flex space-between container-1200 mt-64 mb-64">
 
+<!-- Grande div -->
 
+        <div class="w-48">
+            <h3 class="titre-h3 mt-128">Prets à travailler ensemble ? </h3>
+            <p class="mt-32 mb-32 typo">Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en
+                discuter et de voir comment avancer ensemble. Laissez votre contact téléphonique et je vous rappellerai.</p>
+            <nav class="flex space-between">
+                <a href=""><i class="ph ph-facebook-logo logo"></i></a>
+                <a href=""><i class="ph ph-twitter-logo logo"></i></a>
+                <a href=""><i class="ph ph-instagram-logo logo"></i></a>
+                <a href=""><i class="ph ph-youtube-logo logo"></i></a>
+            </nav>
+        </div>
+
+        <!-- Grande div -->
+
+        <div class="w-48 mt-64 flex colonne">
+            <input type="text" name="Nom" id="Nom" placeholder="Nom" class="mb-16 card-contact">
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone" class="mb-16 card-contact">
+            <input type="email" name="email" id="email" placeholder="Email" class="mb-16 card-contact">
+            <textarea name="message" id="message" placeholder="Message" class="mb-16 card-contact"></textarea>
+            <input type="submit" value="Envoyer" class="btn">
+        </div>
 
     </footer>
 
